@@ -1,8 +1,11 @@
 package com.playtox;
 
+import org.apache.log4j.Logger;
+
 import java.util.Random;
 
 public class Account {
+
     private final int id;
     private int balance;
 
@@ -31,12 +34,13 @@ public class Account {
     }
 
     public static void transfer(Account acc1, Account acc2, int amount, int id) throws InterruptedException {
-        if (!acc1.withdraw(amount)){
-            System.out.println("Transfer number " + id + " Failed");
+        final Logger logger = Logger.getLogger(Account.class);
+        if (!acc1.withdraw(amount)) {
+            logger.error("Transfer number: " + id + "sending amount:" + amount + " from account:" + acc1.getId() + " to account:" + acc2.getId() + " Failed");
             return;
         }
         acc2.deposit(amount);
-        System.out.println("Transfer number " + id + " sucsess");
+        logger.info("Transfer number: " + id + " sending amount:" + amount + " from account:" + acc1.getId() + " to account:" + acc2.getId() + " success");
     }
 
     public int getId() {

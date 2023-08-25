@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18854e3b-dfc6-4c51-aa6a-5022f27ab876" name="Changes" comment="second commit" />
+    <list default="true" id="18854e3b-dfc6-4c51-aa6a-5022f27ab876" name="Changes" comment="third commit">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playtox/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playtox/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/playtox/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playtox/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +43,11 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vavil\playtox\PlaytoxExamle\src\main\resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +59,7 @@
       <workItem from="1692705838461" duration="3084000" />
       <workItem from="1692788730010" duration="5380000" />
       <workItem from="1692803423276" duration="15344000" />
-      <workItem from="1692950382520" duration="7190000" />
+      <workItem from="1692950382520" duration="11287000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1692950530174</created>
@@ -64,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692957569098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1692957893190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692957893190</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,7 +102,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PlaytoxExamle$App.ic" NAME="App Coverage Results" MODIFIED="1692954280897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
