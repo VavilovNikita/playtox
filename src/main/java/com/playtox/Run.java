@@ -55,7 +55,7 @@ class Run {
             try {
                 Thread.sleep(random.nextInt(1000) + 1000);
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                logger.error("Something went wrong",e);
             }
         }
     }
