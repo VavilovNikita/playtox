@@ -1,5 +1,7 @@
 package com.playtox;
 
+import org.apache.log4j.Logger;
+
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.locks.Lock;
@@ -59,12 +61,13 @@ class Run {
 
 
     public void printResult(List<Account> accountList) {
+        final Logger logger = Logger.getLogger(Account.class);
         int result = 0;
         for (Account account : accountList) {
             int balance = account.getBalance();
-            System.out.println("account" + account.getId() + ": " + balance);
+            logger.info("account " + account.getId() + ": " + balance);
             result += balance;
         }
-        System.out.println("total " + result);
+        logger.info("total :" + result);
     }
 }

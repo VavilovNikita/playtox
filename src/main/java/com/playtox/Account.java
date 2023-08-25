@@ -36,11 +36,13 @@ public class Account {
     public static void transfer(Account acc1, Account acc2, int amount, int id) throws InterruptedException {
         final Logger logger = Logger.getLogger(Account.class);
         if (!acc1.withdraw(amount)) {
-            logger.error("Transfer number: " + id + "sending amount:" + amount + " from account:" + acc1.getId() + " to account:" + acc2.getId() + " Failed");
+            logger.info(String.format("Transfer number: %d sending amount: %d from account: %d to account: %d Failed", id, amount, acc1.getId(), acc2.getId()));
             return;
         }
         acc2.deposit(amount);
-        logger.info("Transfer number: " + id + " sending amount:" + amount + " from account:" + acc1.getId() + " to account:" + acc2.getId() + " success");
+        logger.info(String.format("Transfer number: %d sending amount: %d from account: %d to account: %d Success", id, amount, acc1.getId(), acc2.getId()));
+
+
     }
 
     public int getId() {

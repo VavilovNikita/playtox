@@ -1,5 +1,7 @@
 package com.playtox;
 
+import org.apache.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,6 +13,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class App {
     public static void main(String[] args) throws InterruptedException {
+        final Logger logger = Logger.getLogger(Account.class);
         int threadCount = 2;
         int accountCount = 4;
         int transferCount = 30;
@@ -26,7 +29,7 @@ public class App {
                 try {
                     run.makeTransfer(accountList, lockList, transferNumber);
                 } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+                    logger.error("Something went wrong",e);
                 }
             });
         }
