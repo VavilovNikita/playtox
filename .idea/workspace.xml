@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18854e3b-dfc6-4c51-aa6a-5022f27ab876" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/playtox/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/playtox/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/playtox/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="18854e3b-dfc6-4c51-aa6a-5022f27ab876" name="Changes" comment="second commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +48,7 @@
       <workItem from="1692705838461" duration="3084000" />
       <workItem from="1692788730010" duration="5380000" />
       <workItem from="1692803423276" duration="15344000" />
-      <workItem from="1692950382520" duration="6808000" />
+      <workItem from="1692950382520" duration="7190000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1692950530174</created>
@@ -61,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692950530174</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1692957569098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692957569098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +83,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PlaytoxExamle$App.ic" NAME="App Coverage Results" MODIFIED="1692954280897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
