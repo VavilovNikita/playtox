@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import java.util.Random;
 
 public class Account {
-
+    private static final Logger logger = Logger.getLogger(Account.class);
     private final int id;
     private int balance;
 
@@ -34,15 +34,12 @@ public class Account {
     }
 
     public static void transfer(Account acc1, Account acc2, int amount, int id) throws InterruptedException {
-        final Logger logger = Logger.getLogger(Account.class);
         if (!acc1.withdraw(amount)) {
             logger.info(String.format("Transfer number: %d sending amount: %d from account: %d to account: %d Failed", id, amount, acc1.getId(), acc2.getId()));
             return;
         }
         acc2.deposit(amount);
         logger.info(String.format("Transfer number: %d sending amount: %d from account: %d to account: %d Success", id, amount, acc1.getId(), acc2.getId()));
-
-
     }
 
     public int getId() {

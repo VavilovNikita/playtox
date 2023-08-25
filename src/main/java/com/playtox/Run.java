@@ -7,6 +7,7 @@ import java.util.Random;
 import java.util.concurrent.locks.Lock;
 
 class Run {
+    private static final Logger logger = Logger.getLogger(Run.class);
     private void takeLock(Lock lock1, Lock lock2) {
         boolean firstLockTaken = false;
         boolean secondLockTaken = false;
@@ -61,7 +62,6 @@ class Run {
 
 
     public void printResult(List<Account> accountList) {
-        final Logger logger = Logger.getLogger(Account.class);
         int result = 0;
         for (Account account : accountList) {
             int balance = account.getBalance();

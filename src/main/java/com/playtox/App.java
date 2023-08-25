@@ -12,8 +12,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class App {
+    private static final Logger logger = Logger.getLogger(App.class);
     public static void main(String[] args) throws InterruptedException {
-        final Logger logger = Logger.getLogger(Account.class);
         int threadCount = 2;
         int accountCount = 4;
         int transferCount = 30;
